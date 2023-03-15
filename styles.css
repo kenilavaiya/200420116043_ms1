@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.city {
+    background-image: url("https://source.unsplash.com/random?city");
+}
+
+.lights {
+    background-image: url("https://source.unsplash.com/random?lights");
+}
+
+.urban {
+    background-image: url("https://source.unsplash.com/random?urban");
+}
+
+.full {
+    height: 100vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.full h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+
+    color: white;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+    padding: 2rem 5rem;
+    letter-spacing: .5rem;
+}
+
+.filter {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff70;
+}
+
+.section {
+    width: 100%;
+    min-height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section h3 {
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-top: 5rem;
+}
+
+.section p {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 5rem 5rem;
+    text-align: center;
+}
+
+.white {
+    background-color: #fff;
+    color: #000;
+}
+
+.black {
+    background-color: #000;
+    color: #fff;
+}
